@@ -36,7 +36,6 @@ export default async function Home() {
               <div className="flex-1 flex items-center justify-center mb-4">
                 <img
                   src={store.logo_url}
-                  alt={store.name}
                   className="h-13 w-13 object-contain"
                 />
               </div>
@@ -44,7 +43,7 @@ export default async function Home() {
               {/* Store Info */}
               <div className="text-center w-full">
                 <h2 className="text-lg font-semibold text-gray-800 mb-2">
-                  {store.name}
+
                 </h2>
                 <p className="text-green-600 text-base font-bold mb-3">
                   {store.cashback_rate}% cashback
