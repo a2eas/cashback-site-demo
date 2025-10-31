@@ -14,7 +14,7 @@ export default async function Home() {
       {/* ✅ Hero Section */}
       <div className="text-center py-16 px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          Shop & Donate Cashback 💸
+          Shop & Donate Cashback 
         </h1>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-8">
           Earn cashback from your favorite stores and automatically donate a portion to charity.
