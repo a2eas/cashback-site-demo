@@ -36,7 +36,8 @@ export default async function Home() {
               <div className="flex-1 flex items-center justify-center mb-4">
                 <img
                   src={store.logo_url}
-                  className="h-13 w-13 object-contain"
+                      className="max-h-24 max-w-full object-contain"
+                  alt={store.name}
                 />
               </div>
               
